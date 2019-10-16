@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(53, 120, 173, 0.69), rgba(31, 169, 130, 0.98));
+  font-family: sans-serif;
+  color: white;
+}
+
+.location,
+.temparature{
+  height: 30vh;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.temparature{
+  flex-direction: column;
+}
+.degree-temparature{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+span{
+  margin: 5px;
+  font-size: 30px;
+}
+.degree-temparature h2{
+  font-size: 40px;
+}
+.temparature-description{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 24px;
+  margin-bottom: 10%;
+}
