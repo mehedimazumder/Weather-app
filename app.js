@@ -35,6 +35,7 @@ window.addEventListener('load', ()=>{
     });
 
     function setIcons(icon, iconID){
+      console.log("for git testing");
       const skycons = new Skycons({color: "white"});
       const currentIcon = icon.replace(/-/g, "_").toUpperCase();
       skycons.play();
